@@ -28,7 +28,7 @@ public class Main {
             }
         }
         totalMoney = totalMoney + refillAmount;
-        if (refillAmount >= 1000) {
+        if (refillAmount > 1000) {
             bonusMoney = refillAmount / 100;
         }
         totalMoney = totalMoney + bonusMoney;
